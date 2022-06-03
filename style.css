@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.general_column {
+    display: flex;
+}
+.column_1 {
+}
+.column_1 .logo {
+    position: absolute;
+    margin-top: -1000px;
+    margin-left: 60px;
+}
+.column_2 {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.name {
+    font-family: "BarlowThinwebfont", sans-serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.registration {
+    font-family: "BarlowThinwebfont", sans-serif;
+    font-size: 20px;
+    color: dimgray;
+    padding-bottom: 30px;
+}
+.social_networks {
+    display: flex;
+    padding-bottom: 20px;
+    font-family: "BarlowThinwebfont", sans-serif;
+    font-size: 12px;
+    color: #FEFEFE;
+}
+.social_networks .social_button_facebook {
+    display: inline-flex;
+    background-color: #255A9B;
+    align-items: center;
+    padding: 5px 50px;
+    margin-right: 20px;
+}
+.social_networks .social_button_facebook:hover {
+    background-color: #0076B6;
+    cursor: pointer;
+}
+.social_networks .social_button_facebook .social_logo {
+    padding-right: 5px;
+}
+.social_networks .social_button_linkedin {
+    display:  inline-flex;
+    background-color: #0076B6;
+    align-items: center;
+    padding: 5px 50px;
+}
+.social_networks .social_button_linkedin:hover {
+    background-color: #255A9B;
+    cursor: pointer;
+}
+.social_networks .social_button_linkedin .social_logo {
+    padding-right: 7px;
+}
+.line   {
+    padding-bottom: 20px;
+}
+.line span {
+    margin-left: 20px;
+    font-family: "BarlowThinwebfont", sans-serif;
+    font-size: 10px;
+}
+.input_box {
+    display: flex;
+    padding-bottom: 50px;
+}
+.investor {
+    padding-bottom: 20px;
+    font-family: "BarlowThinwebfont", sans-serif;
+    font-size: 20px;
+}
+.select_investor {
+    padding-bottom: 30px;
+    font-family: "BarlowThinwebfont", sans-serif;
+    font-size: 15px;
+    color: dimgray;
+}
+input[type=text] {
+    width: 240px;
+    height: 50px;
+}
+.input_box .input_mail {
+    margin-right: 16px;
+}
+.checkbox {
+    display: flex;
+    padding-bottom: 20px;
+}
+.checkbox_description {
+    background-color: cadetblue;
+    border: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+}
+.I_agree {
+    padding: 40px 0;
+}
+.I_agree span {
+    color: #255A9B;
+    text-decoration: underline;
+}
+.button {
+    display: inline-block;
+    background-color: cornflowerblue;
+    padding: 10px 50px;
+    color: #FEFEFE;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: #0076B6;
+}
